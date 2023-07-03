@@ -1,0 +1,61 @@
+body {
+  margin: 0 20px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.container {
+  display: flex;
+  gap: 15px;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.header {
+  align-items: flex-end;
+}
+
+.left {
+  flex: 65%;
+}
+
+.right {
+  flex: 35%;
+}
+
+.spacing {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.divider {
+  height: 1rem;
+  background-color: #3f2305;
+}
+
+#profile {
+  background-color: #dfd7bf;
+}
+
+#section-one,
+#section-three {
+  background-color: #f2ead3;
+}
+#section-two {
+    background-color: #F5F5F5;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+}
