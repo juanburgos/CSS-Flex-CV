@@ -3,6 +3,11 @@ body {
   font-family: 'Nanum Myeongjo', serif;
 }
 
+.headshot {
+  margin-top: 5px;
+  border-radius: 3%;
+}
+
 .container {
   display: flex;
   gap: 15px;
@@ -17,6 +22,7 @@ body {
 .row {
   display: flex;
   flex-flow: row wrap;
+  gap: 15px;
 }
 
 .header {
@@ -41,10 +47,11 @@ body {
   background-color: #3f2305;
 }
 
-#profile {
+pending {
   background-color: #dfd7bf;
 }
 
+#profile,
 #section-one,
 #section-three {
   background-color: #f2ead3;
